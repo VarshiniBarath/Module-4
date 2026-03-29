@@ -19,16 +19,23 @@ To create a Python program that prompts the user for a list of grades separated 
 7. Terminate the program.
 
 ---
-
-### PROGRAM
-
+# PROGRAM
 ```
-Reg.No
-Name
-Add Your Code Here
-
+#REGNO:-212222090028
+#Name: Varshini R
+grades=input_str.split(',')
+try:
+    l1=[int(item) for item in grades]
+except:
+    print("The grades you entered were in an invalid format.")
+    print(grades)
+else:
+    l1=[int(item) for item in grades]
+    print(l1)
 ```
+# OUTPUT
+<img width="1011" height="206" alt="image" src="https://github.com/user-attachments/assets/f29cf2cd-4d8d-4567-854c-00162074c4c1" />
 
-### OUTPUT
 
-### RESULT
+# RESULT
+Thus the python program for handling exceptions was implemented and executed successfully.
