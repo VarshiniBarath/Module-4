@@ -31,15 +31,53 @@ To write a Python program to perform addition and division operations using a cl
 7. Terminate the program.
 
 ---
+# PROGRAM
+```
+# REGNO:-212222060121
+#Name:-Kiruthika M 
+    def __init__(self):
+        self.a = 0
+        self.b = 0
 
-### PROGRAM
+    def setvalues(self, a, b):
+        self.a = a
+        self.b = b
 
+    def add(self):
+        return self.a + self.b
+
+    def div(self):
+        if self.b != 0:
+            return self.a / self.b
+        else:
+            return "Error: Division by zero"
+def main():
+    saveetha_obj = Saveetha()
+    a = float(input())``
+    b = float(input())
+    while True:
+        saveetha_obj.setvalues(a, b)
+        choice = int(input())
+        if choice == 1:
+            result = saveetha_obj.add()
+            print(f"Result:  {int(result)}")
+        elif choice == 2:
+            result = saveetha_obj.div()
+            print(f"Result:  {int(result)}")
+        elif choice == 0:
+            print("Exiting!")
+            break
+        else:
+            print("Invalid choice")
+
+# Run the main function
+main()
 ```
 
 
+# OUTPUT
+<img width="1011" height="456" alt="image" src="https://github.com/user-attachments/assets/5f716e34-0bd4-401b-a485-cc66108329f2" />
 
-```
+# Result
+Thus the arithmetic calculation using class has been implemented and executed successfully.
 
-### OUTPUT
-
-### RESULT
